@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.btn-modern {
+    position: relative;
+    padding: 5px 20px;
+    border-radius: 7px;
+    border: none;
+    background-color: rgb(112, 65, 134);
+    color: #fff;
+    font-family: 'Oleo Script', cursive;
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.btn-modern:hover {
+    background-color: rgb(226, 214, 107);
+    color: rgb(56, 15, 75);
+    border-bottom: 2px solid rgb(219, 216, 16);
+    transition: all 0.4s;
+    transform: translateY(-5px);
+}
