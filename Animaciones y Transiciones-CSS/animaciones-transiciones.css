@@ -20,12 +20,13 @@ body{
     font-size: 14px;
     font-weight: 400;
     cursor: pointer;
+    transition: all 0.4s ease;
 }
 
 .btn-modern:hover {
     background-color: rgb(226, 214, 107);
     color: rgb(56, 15, 75);
     border-bottom: 2px solid rgb(219, 216, 16);
-    transition: all 0.4s;
     transform: translateY(-5px);
+    box-shadow: 0 5px 10px rgba(86, 33, 107, 0.5);
 }
